@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000000;
+    
+}
+.mainSec{
+    background-color: #fafafa;
+    margin: 0px 110px;
+}
+.Navbar{
+    background-color: #ffffffff;
+    border: 1px solid gray;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.navitems{
+    width: 86%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.searchbar input{
+    background-color:#fafafa;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+.icons img{
+    width: 23px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 50%;
+
+}
+
+span{
+    background-color: #ed4956;
+    color: white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 72.8%;
+}
+
+
+
+
+
+.bodySec{
+    margin: 20px 80px 0px;
+    display: flex;
+    
+}
+.postSec{
+    width: 65%;
+}
+.stories{
+    background-color: #ffffffff;
+    height: 110px;
+    display: flex;
+    border: 1px solid #dbdbdb;
+
+    
+}
+.users{
+    display: flex;
+    padding: 10px;
+
+
+}
+.users img {
+    height: auto;
+    width: 60px;
+    border-radius: 50%;
+    border: 2px solid red;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.users img:hover{
+    width: 70px;
+}
+
+
+
+.posts{
+    background-color: #ffffffff;
+    margin-top: 20px;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid #dbdbdb;
+}
+.user img{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.user-post img{
+    height: auto;
+    width: 45px;
+    border-radius: 50%;
+    border: 2px solid red;
+    margin-right: 20px;
+
+}
+.user-post{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0px 10px;
+
+}
+.dots{
+    position: absolute;
+    right: 10px;
+    font-size: 25px;
+}
+.dots:hover{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+img{
+    height: 100%;
+    width: auto;
+}
+
+.opinion{
+    width: 100%;
+    
+}
+.opinion-icons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-top: 10px;
+    position: relative;
+
+}
+.opinion-icons img{
+    margin: 0 10px;
+    width: 30px;
+}
+.share{
+    display: flex;
+    position: absolute;
+    right: 20px;
+}
+.explanation{
+    margin: 15px;
+}
+
+.comment{
+    display: flex;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+.comment img{
+    width: 30px;
+    margin: 0px 10px;
+}
+.comment input{
+    border: none;
+    font-size: 20px;
+}
+
+.post{
+    position: absolute;
+    right: 20px;
+    color:aqua;
+    font-size: 30px;
+}
+
+
+.suggestions{
+    width: 35%;
+    padding: 20px;
+}
+
+.sugtext{
+    color: #808080;
+}
+ 
+.sugperson{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.sugperson img{
+    width: 50px;
+    margin: 0px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.sugperson img:hover{
+    width: 60px;
+}
+.flwsyou{
+    color: #808080;
+}
+.flwbtn{
+    position: absolute;
+    right: 20%;
+    color:rgb(113, 155, 204);
+    font-size: 15px;
+    cursor: pointer;
+}
+.flwbtn:hover{
+    color: rgb(23, 133, 72);
+    font-size: 20px;
+}
+
+@media screen and (max-width: 780px) {
+  div.mainSec{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  div.searchbar, .suggestions {
+    display: none;
+    width: 0%;
+  }
+  .postSec{
+    width: 100%;
+  }
+
+  .Navbar{
+    width: 72%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    margin-left: 80px;
+  }
+}
